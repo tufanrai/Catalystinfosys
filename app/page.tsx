@@ -7,6 +7,8 @@ import { HeroHighlight } from "@/components/ui/hero-highlight";
 import { div } from "motion/react-client";
 import Services from "@/Component/Hero/services";
 import HowWeWork from "@/Component/Hero/howWeWork";
+import Reviews from "@/Component/Hero/Reviews";
+import Footer from "@/Component/Hero/footer";
 
 const page = () => {
   return (
@@ -45,6 +47,8 @@ const page = () => {
       <Team />
       <Services />
       <HowWeWork />
+      <Reviews />
+      <Footer />
     </div>
   );
 };
