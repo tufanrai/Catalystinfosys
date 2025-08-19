@@ -1,5 +1,4 @@
 import React from "react";
-import { HeroHighlight } from "../../components/ui/hero-highlight";
 
 interface IProps {
   image: string;

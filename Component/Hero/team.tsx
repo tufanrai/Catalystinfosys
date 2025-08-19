@@ -1,8 +1,9 @@
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+import { BackgroundBeamsWithCollision } from "@/Component/backgroundBeam";
 import React from "react";
 import AboutUsImgCard from "../cards/AboutUsImgCard";
 import team1 from "@/public/ .jpg";
 import team2 from "@/public/ -2.jpg";
+import { AboutBannerText } from "../contents/AboutUs";
 
 const Team = () => {
   return (
@@ -24,12 +25,10 @@ const Team = () => {
         </div>
         <div className="w-full px-8 py-4 flex flex-col items-start justify-center">
           <h1 className="w-full text-start text-shadow-lg/30 text-shadow-white/60 font-bold italic text-blue-600 text-3xl">
-            Scale Your Business with Us!
+            {AboutBannerText.title}
           </h1>
           <p className="max-w-100 w-full text-start font-thin text-sm text-white/85 mt-4">
-            Our expert and passionate team will help you build very responsive
-            and professional looking site which is very SEO friendly, making
-            your site appear at the top of the list.{" "}
+            {AboutBannerText.description}
           </p>
           <button className="mt-8 border border-blue-800 rounded-sm px-8 py-2 font-medium text-md text-blue-800 ml-25 cursor-pointer ease duration-300 hover:text-white hover:bg-blue-800">
             Know Us
