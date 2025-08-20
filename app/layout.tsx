@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { FloatingNav } from "@/Component/floating-navbar";
+import { AiFillHome } from "react-icons/ai";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +30,52 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
+        <FloatingNav
+          navItems={[
+            {
+              name: "Home",
+              link: "/",
+              icon: <AiFillHome />,
+            },
+            {
+              name: "Services",
+              link: "/services",
+              icon: (
+                <>
+                  <span>Hello There</span>
+                </>
+              ),
+            },
+            {
+              name: "About us",
+              link: "/aboutus",
+              icon: (
+                <>
+                  <span>Hello There</span>
+                </>
+              ),
+            },
+            {
+              name: "Reviews",
+              link: "/reviews",
+              icon: (
+                <>
+                  <span>Hello There</span>
+                </>
+              ),
+            },
+            {
+              name: "Contact",
+              link: "/contact",
+              icon: (
+                <>
+                  <span>Hello There</span>
+                </>
+              ),
+            },
+          ]}
+          className="bg-black border-white/[0.2] border-neutral-200 border text-white z-999"
+        />
         {children}
       </body>
     </html>
