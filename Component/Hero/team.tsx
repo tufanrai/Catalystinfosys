@@ -6,9 +6,9 @@ import { AboutBannerText } from "../contents/AboutUs";
 
 const Team = () => {
   return (
-    <div className="bg-black/90 w-full">
-      <div className="max-w-[1280px] h-screen w-full flex flex-col md:flex-row items-center justify-evenly md:justify-center md:gap-8 overflow-hidden md:px-16">
-        <div className="max-w-[80%] max-h-[70%] w-full h-screen flex flex-col items-center justify-center">
+    <div className="bg-black w-full flex justify-center">
+      <div className="max-w-[1280px] h-auto w-full flex flex-col md:flex-row items-center justify-evenly md:justify-center md:gap-8 overflow-hidden md:px-16">
+        <div className="max-w-[80%] w-full h-auto flex flex-col items-center justify-center">
           <span className="px-4 py-2 font-medium text-sm md:text-lg italic text-white/60 border border-blue-800 backdrop-blur-sm bg-blue-600/20 shadow-xl/30 shadow-blue-600/90 rounded-lg z-10 relative top-6 left-18">
             Passionate team
           </span>

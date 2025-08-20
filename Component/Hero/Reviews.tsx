@@ -3,7 +3,7 @@ import React from "react";
 
 const Reviews = () => {
   return (
-    <div className="w-full h-100 bg-black flex justify-center items-center">
+    <div className="w-full h-100 bg-black/90 flex justify-center items-center">
       <InfiniteMovingCards
         items={[
           {
