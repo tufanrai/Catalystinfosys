@@ -1,6 +1,6 @@
 import Banner from "@/Component/Hero/banner";
 import React from "react";
-import { FloatingNav } from "@/Component/header/nav";
+import { FloatingNav } from "@/Component/floating-navbar";
 import { AiFillHome } from "react-icons/ai";
 import Team from "@/Component/Hero/team";
 import Services from "@/Component/Hero/services";
