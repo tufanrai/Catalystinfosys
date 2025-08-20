@@ -8,7 +8,7 @@ interface IProps {
 const AboutUsImgCard = (props: IProps) => {
   return (
     <div
-      className={`rounded-lg hover:scale-105 ease duration-300 border-[1px] border-blue-600/50 shadow-xl/30 shadow-blue-600/50 overflow-hidden inline-block absolute ${props.position}`}
+      className={`rounded-lg hover:scale-105 ease duration-300 border-[1px] border-blue-600/50 shadow-xl/30 shadow-blue-600/50 overflow-hidden  ${props.position}`}
     >
       <img
         src={`${props.image}`}
