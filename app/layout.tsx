@@ -42,7 +42,7 @@ export default function RootLayout({
               link: "/services",
               icon: (
                 <>
-                  <span>Hello There</span>
+                  <span>Services</span>
                 </>
               ),
             },
@@ -51,7 +51,7 @@ export default function RootLayout({
               link: "/aboutus",
               icon: (
                 <>
-                  <span>Hello There</span>
+                  <span>About Us</span>
                 </>
               ),
             },
@@ -60,7 +60,7 @@ export default function RootLayout({
               link: "/reviews",
               icon: (
                 <>
-                  <span>Hello There</span>
+                  <span>Reviews</span>
                 </>
               ),
             },
@@ -69,7 +69,7 @@ export default function RootLayout({
               link: "/contact",
               icon: (
                 <>
-                  <span>Hello There</span>
+                  <span>Contact</span>
                 </>
               ),
             },
