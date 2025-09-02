@@ -4,24 +4,35 @@ const FooterPage = () => {
   return (
     <div className="max-w-[1280px] w-full font-[--main-font]">
       <div className="w-full bg-neutral-700">
-        <div className="w-full px-8 py-2 flex items-center justify-around md:px-16 md:py-8 px-8 py-4">
-          <div className="w-full text-white flex flex-col items-start justify-start">
+        <div className="w-full px-16 py-2 flex items-center justify-center md:px-16 md:py-8 px-8 py-4">
+          <div className="w-full text-white flex flex-col items-start justify-start max-w-[505px]">
             <h1 className="font-bold md:text-[28px] text-lg text-start">
-              Parton Satisfaction,
+              Our Partons Love,
             </h1>
             <h6 className="font-medium md:text-[22px] text-md text-start mb-4">
-              Our Motivation
+              And their Beautiful worlds
             </h6>
-            <p className="w-[505px] font-thin md:text-sm text-xs">
+            <p className="font-medium w-[400px] md:text-md text-sm">
               We are always pleased and happy to help you and become a memorable
               part of your success journey.
             </p>
           </div>
-          <div>
+          <div className="grid grid-rows-3 grid-cols-3 gap-8">
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
+            <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
             <div className="w-[80px] h-[80px] rounded-full overflow-hidden bg-white"></div>
           </div>
         </div>
-        <div className="w-full flex items-center justify-center mt-16 py-16">
+        <h6 className="w-full px-18 py-4 font-semibold md:text-lg text-md text-white text-center relative after:content-[''] after:absolute after:w-50 after:bg-white after:h-[1px] after:bottom-4 after:left-[50%] after:-translate-x-[50%]">
+          Partons Satisfaction
+        </h6>
+        <div className="w-full flex items-center justify-center py-16">
           <div className="w-[378px] h-[296px] rounded-md px-5 py-2 bg-slate-700 flex flex-col items-center justify-center">
             <div className="w-[326px] h-[167px] text-white">
               <p>
@@ -33,7 +44,7 @@ const FooterPage = () => {
             </div>
             <div className="flex items-center justify-end gap-4">
               <img
-                src=""
+                src="#"
                 className="w-[40px] h-[40px] rounded-full object-cover object-center bg-white"
               />
               <span className="text-white">Tufan Rai</span>

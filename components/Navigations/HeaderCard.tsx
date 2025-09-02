@@ -6,7 +6,7 @@ const HeaderCard = () => {
     <div className="max-w-[1280px] w-full text-white px-16 font-[--main-font]">
       <ul className="w-full flex items-center jsutify-center gap-3">
         <li className="mr-auto">
-          <Link href="/">
+          <Link href={"/"}>
             <span className="font-thin">
               <b className="font-bold md:text-xl text-lg">Catalyst</b> infosys
             </span>
@@ -15,7 +15,7 @@ const HeaderCard = () => {
         <li>
           <Link
             className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
-            href="/"
+            href={"/"}
           >
             Home
           </Link>
@@ -23,7 +23,7 @@ const HeaderCard = () => {
         <li>
           <Link
             className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
-            href="/service"
+            href={"/service"}
           >
             Services
           </Link>
@@ -31,7 +31,7 @@ const HeaderCard = () => {
         <li>
           <Link
             className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
-            href="/aboutus"
+            href={"/aboutus"}
           >
             About us
           </Link>
@@ -39,7 +39,7 @@ const HeaderCard = () => {
         <li>
           <Link
             className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
-            href="/contact"
+            href={"/contact"}
           >
             Contact us
           </Link>
