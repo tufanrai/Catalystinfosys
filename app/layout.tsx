@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { FloatingNav } from "@/Component/floating-navbar";
-import { AiFillHome } from "react-icons/ai";
+import HeaderCard from "@/components/Navigations/HeaderCard";
+import FooterPage from "@/components/footer/FooterPage";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,53 +30,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
-        <FloatingNav
-          navItems={[
-            {
-              name: "Home",
-              link: "/",
-              icon: <AiFillHome />,
-            },
-            {
-              name: "Services",
-              link: "/services",
-              icon: (
-                <>
-                  <span>Services</span>
-                </>
-              ),
-            },
-            {
-              name: "About us",
-              link: "/aboutus",
-              icon: (
-                <>
-                  <span>About Us</span>
-                </>
-              ),
-            },
-            {
-              name: "Reviews",
-              link: "/reviews",
-              icon: (
-                <>
-                  <span>Reviews</span>
-                </>
-              ),
-            },
-            {
-              name: "Contact",
-              link: "/contact",
-              icon: (
-                <>
-                  <span>Contact</span>
-                </>
-              ),
-            },
-          ]}
-          className="bg-black border-white/[0.2] border-neutral-200 border text-white z-999"
-        />
+        <div className="w-full flex items-center justify-center bg-black md:px-16 px-8 md:py-8 py-4">
+          <HeaderCard />
+        </div>
         {children}
+        <div className="w-full flex justify-center bg-black">
+          <FooterPage />
+        </div>
       </body>
     </html>
   );
