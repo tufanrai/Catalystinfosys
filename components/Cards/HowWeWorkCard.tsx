@@ -7,7 +7,7 @@ const HowWeWorkCard = () => {
         How we work
       </h1>
       <div className="w-full py-4 mt-12 flex flex-col gap-8 overflow-hidden">
-        <div className="w-[643px] h-[236px] rounded-r-lg bg-violet-400 flex items-start justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
+        <div className="max-w-[643px] h-[236px] w-full rounded-r-lg bg-violet-400 flex items-start justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
           <h6 className="font-medium md:text-xl text-lg">Plan</h6>
           <p className="w-[291px] font-thin md:text-sm text-xs leading-5 text-white/70">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -16,7 +16,7 @@ const HowWeWorkCard = () => {
             reprehenderit beatae?
           </p>
         </div>
-        <div className="w-[643px] h-[236px] rounded-r-lg bg-violet-950 flex items-start justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70 relative left-[50%]">
+        <div className="max-w-[643px] h-[236px] w-full rounded-r-lg bg-violet-950 flex items-start justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70 md:relative md:left-[50%]">
           <h6 className="font-medium md:text-xl text-lg">Design</h6>
           <p className="w-[291px] font-thin md:text-sm text-xs leading-5 text-white/70">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -25,8 +25,8 @@ const HowWeWorkCard = () => {
             reprehenderit beatae?
           </p>
         </div>
-        <div className="w-full flex items-center justify-evenly">
-          <div className="w-[378px] h-[236px] rounded-r-lg bg-purple-300 text-black flex flex-col items-center justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
+        <div className="w-full flex flex-col md:flex-row items-center justify-evenly gap-12 md:gap-0">
+          <div className="md:w-[378px] h-[236px] w-full rounded-r-lg bg-purple-300 text-black flex flex-col items-center justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
             <h6 className="font-medium md:text-xl text-lg">Develop</h6>
             <p className="w-[291px] font-thin md:text-sm text-xs leading-5">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -35,7 +35,7 @@ const HowWeWorkCard = () => {
               reprehenderit beatae?
             </p>
           </div>
-          <div className="w-[378px] h-[236px] rounded-r-lg bg-purple-400 flex flex-col items-center justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
+          <div className="md:w-[378px] h-[236px] w-full rounded-r-lg bg-purple-400 flex flex-col items-center justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
             <h6 className="font-medium md:text-xl text-lg">De-bugg</h6>
             <p className="w-[291px] font-thin md:text-sm text-xs leading-5 text-white/70">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -44,7 +44,7 @@ const HowWeWorkCard = () => {
               reprehenderit beatae?
             </p>
           </div>
-          <div className="w-[378px] h-[236px] rounded-r-lg bg-indigo-600 flex flex-col items-center justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
+          <div className="md:w-[378px] h-[236px] w-full rounded-r-lg bg-indigo-600 flex flex-col items-center justify-center gap-8 px-16 py-8 shadow-xl/30 shadow-white/70">
             <h6 className="font-medium md:text-xl text-lg">Deploy</h6>
             <p className="w-[291px] font-thin md:text-sm text-xs leading-5 text-white/70">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita

@@ -47,6 +47,7 @@
 
 @theme inline {
   --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+  --color-theme: #7529FF;
  
   @keyframes scroll {
     to {

@@ -4,12 +4,13 @@ import SystemDevelopment from "@/public/🚀 Full-Stack Development Guide | Web 
 import webDevelopment from "@/public/webDev.jpg";
 import UIDesign from "@/public/Designing Wonder.jpg";
 import MailCard from "../Cards/MailCard";
+import ServicesCard from "../Cards/ServicesCard";
 
 const ServicePage = () => {
   return (
     <div className="max-w-[1280px] w-full font-[--main-font] bg-black text-white">
       {/* Landing Page */}
-      <div className="w-full h-screen md:px-16 px-8 md: font-[--main-font] py-8 py-4 flex items-center justify-around bg-linear-to-r from-theme to-black">
+      <div className="w-full h-screen md:px-16 px-8 md: font-[--main-font] py-8 py-4 flex flex-col-reverse md:flex-row items-center justify-around bg-linear-to-r from-theme to-black">
         <div>
           <h1 className="font-semibold text-[24px]">Why limit yourself,</h1>
           <h6 className="font-medium text-[24px]">
@@ -38,71 +39,9 @@ const ServicePage = () => {
         </div>
       </div>
       {/* Services */}
-      <div className="w-full md:px-16 px-8 md:py-8 py-4 flex flex-col gap-8 bg-linear-7 from-indigo-700 to-black">
-        <div className="flex items-start justify-around px-8 py-4 bg-neutral-800 runded-lg">
-          <div className="w-[360px] h-[236px] rounded-md overflow-hidden">
-            <img src={SystemDevelopment.src} width={"100%"} />
-          </div>
-          <div className="h-[148px] w-[480px]">
-            <h4>System Development</h4>
-            <p>
-              Introduce your Business/ Company to the world, make it recognise
-              and scale your business up to international level with this
-              package. We build eye catching and responsive static websites.
-              This package is suitable for those companies who just want to
-              introduce themself in the market and share about their companies
-              and their locations to their clients
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-row-reverse items-start justify-around px-8 bg-neutral-800 py-4 runded-lg">
-          <div className="w-[360px] h-[236px] rounded-md overflow-hidden">
-            <img src={webDevelopment.src} width={"100%"} />
-          </div>
-          <div className="h-[148px] w-[480px]">
-            <h4>System Development</h4>
-            <p>
-              Introduce your Business/ Company to the world, make it recognise
-              and scale your business up to international level with this
-              package. We build eye catching and responsive static websites.
-              This package is suitable for those companies who just want to
-              introduce themself in the market and share about their companies
-              and their locations to their clients
-            </p>
-          </div>
-        </div>
-        <div className="flex items-start justify-around px-8 py-4 bg-neutral-800 runded-lg">
-          <div className="w-[360px] h-[236px] rounded-md overflow-hidden">
-            <img src={UIDesign.src} width={"100%"} />
-          </div>
-          <div className="h-[148px] w-[480px]">
-            <h4>System Development</h4>
-            <p>
-              Introduce your Business/ Company to the world, make it recognise
-              and scale your business up to international level with this
-              package. We build eye catching and responsive static websites.
-              This package is suitable for those companies who just want to
-              introduce themself in the market and share about their companies
-              and their locations to their clients
-            </p>
-          </div>
-        </div>
-      </div>
+      <ServicesCard />
       {/* Contacy Page */}
-      <div className="w-full bg-linear-180 from-indigo-700 to-black md:px-16 px-8 md:py-16 py-8 flex items-center justify-center gap-8">
-        <div className="w-[467px]">
-          <h1 className="font-medium md:text-[22px] text-md text-start mb-4">
-            Let's have a meeting,
-          </h1>
-          <p>
-            Let’s have a meeting and talk about which package suits your
-            business and helps you scale your business up.
-          </p>
-        </div>
-        <div>
-          <MailCard />
-        </div>
-      </div>
+      <MailCard />
     </div>
   );
 };

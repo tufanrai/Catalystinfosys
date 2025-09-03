@@ -6,8 +6,8 @@ const AboutUsPage = () => {
   return (
     <div className="max-w-[1280px] w-full font-[--main-font]">
       {/* Landing Page */}
-      <div className="w-full md:p-16 p-8 flex items-center bg-linear-to-r from-indigo-700 to-black justify-around">
-        <div className="w-[510px]">
+      <div className="w-full md:p-16 p-8 flex flex-col-reverse md:flex-row items-center bg-linear-to-r from-indigo-700 to-black md:justify-around justify-start gap-12">
+        <div className="md:w-[510px] w-full flex-col items-cetner justify-center py-8">
           <h1 className="font-bold md:text-[32px] text-lg">
             We Listen. We Solve. We Deliver.
           </h1>
@@ -21,10 +21,8 @@ const AboutUsPage = () => {
             Learn more
           </button>
         </div>
-        <div>
-          <div className="overflow-hidden w-[327px]">
-            <img src={Model.src} width={"100%"} />
-          </div>
+        <div className="overflow-hidden w-[327px]">
+          <img src={Model.src} width={"100%"} />
         </div>
       </div>
       {/* How we work */}
@@ -32,8 +30,8 @@ const AboutUsPage = () => {
       {/* Team */}
       <div className="w-full bg-linear-to-r from-indigo-700 to-black py-16">
         <h1 className="w-full text-center font-bold text-xl mb-12">Our Team</h1>
-        <div className="w-full h-[80vh] relative">
-          <div className="w-[216px] h-[353px] absolute left-[50%] -translate-x-[50%]">
+        <div className="w-full md:h-[80vh] md:relative flex flex-col items-center justify-around md:flex-none">
+          <div className="w-[216px] h-[353px] md:absolute md:left-[50%] md:-translate-x-[50%]">
             <div className="w-[216px] h-[281px] rounded-lg bg-white"></div>
             <div>
               <h6>Tufan Rai</h6>
@@ -41,7 +39,7 @@ const AboutUsPage = () => {
               <span>Co-founder & CEO</span>
             </div>
           </div>
-          <div className="w-[216px] h-[353px] absolute left-10 top-[70%] -translate-y-[50%]">
+          <div className="w-[216px] h-[353px] md:absolute md:left-10 md:top-[70%] md:-translate-y-[50%]">
             <div className="w-[216px] h-[281px] rounded-lg bg-white"></div>
             <div>
               <h6>Tufan Rai</h6>
@@ -49,7 +47,7 @@ const AboutUsPage = () => {
               <span>Co-founder & CEO</span>
             </div>
           </div>
-          <div className="w-[216px] h-[353px] absolute right-10 top-[70%] -translate-y-[50%]">
+          <div className="w-[216px] h-[353px] md:absolute md:right-10 md:top-[70%] md:-translate-y-[50%]">
             <div className="w-[216px] h-[281px] rounded-lg bg-white"></div>
             <div>
               <h6>Tufan Rai</h6>
