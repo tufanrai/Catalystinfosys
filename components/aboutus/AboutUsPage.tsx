@@ -6,7 +6,7 @@ const AboutUsPage = () => {
   return (
     <div className="max-w-[1280px] w-full font-[--main-font]">
       {/* Landing Page */}
-      <div className="w-full md:p-16 p-8 flex flex-col-reverse md:flex-row items-center bg-linear-to-r from-indigo-700 to-black md:justify-around justify-start gap-12">
+      <div className="w-full md:p-16 p-8 flex flex-col-reverse md:flex-row items-center bg-linear-120 from-theme via-black/42 to-black md:justify-around justify-start gap-12">
         <div className="md:w-[510px] w-full flex-col items-cetner justify-center py-8">
           <h1 className="font-bold md:text-[32px] text-lg">
             We Listen. We Solve. We Deliver.
@@ -28,7 +28,7 @@ const AboutUsPage = () => {
       {/* How we work */}
       <HowWeWorkCard />
       {/* Team */}
-      <div className="w-full bg-linear-to-r from-indigo-700 to-black py-16">
+      <div className="w-full bg-linear-240 from-theme to-black py-16">
         <h1 className="w-full text-center font-bold text-xl mb-12">Our Team</h1>
         <div className="w-full md:h-[80vh] md:relative flex flex-col items-center justify-around md:flex-none">
           <div className="w-[216px] h-[353px] md:absolute md:left-[50%] md:-translate-x-[50%]">

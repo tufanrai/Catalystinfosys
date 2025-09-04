@@ -5,7 +5,7 @@ import UiUxDesign from "@/public/Designing Wonder.jpg";
 
 const ServicesCard = () => {
   return (
-    <div className="w-full bg-linear-12 from-black to-theme py-8">
+    <div className="w-full bg-linear-120 from-black via-black/42 to-theme py-8">
       <h1 className="font-bold md:text-[28px] text-lg w-full text-center">
         Introduce Yourself to the World!
       </h1>

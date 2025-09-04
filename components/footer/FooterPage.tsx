@@ -3,7 +3,7 @@ import React from "react";
 const FooterPage = () => {
   return (
     <div className="max-w-[1280px] w-full font-[--main-font]">
-      <div className="w-full bg-neutral-700">
+      <div className="w-full bg-neutral-800">
         <div className="w-full px-16 py-2 flex flex-col md:flex-row items-center justify-center md:px-16 md:py-8 px-8 py-4">
           <div className="w-full text-white flex flex-col items-start justify-start max-w-[505px] w-full py-8">
             <h1 className="font-bold md:text-[28px] text-lg text-start">

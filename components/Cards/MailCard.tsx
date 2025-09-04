@@ -2,7 +2,7 @@ import React from "react";
 
 const MailCard = () => {
   return (
-    <div className="w-full bg-linear-180 from-indigo-700 to-black md:px-16 px-8 md:py-16 py-8 flex flex-col md:flex-row items-center justify-center gap-8">
+    <div className="w-full bg-linear-300 from-theme to-black md:px-16 px-8 md:py-16 py-8 flex flex-col md:flex-row items-center justify-center gap-8">
       <div className="w-[467px] text-white font-[--main-font]">
         <h1 className="font-medium md:text-[22px] text-md text-start mb-4">
           Let's have a meeting,

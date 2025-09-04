@@ -10,7 +10,7 @@ const ServicePage = () => {
   return (
     <div className="max-w-[1280px] w-full font-[--main-font] bg-black text-white">
       {/* Landing Page */}
-      <div className="w-full h-screen md:px-16 px-8 md: font-[--main-font] py-8 py-4 flex flex-col-reverse md:flex-row items-center justify-around bg-linear-to-r from-theme to-black">
+      <div className="w-full h-screen md:px-16 px-8 md: font-[--main-font] py-8 py-4 flex flex-col-reverse md:flex-row items-center justify-around bg-linear-120 from-theme via-black/42 to-black">
         <div>
           <h1 className="font-semibold text-[24px]">Why limit yourself,</h1>
           <h6 className="font-medium text-[24px]">

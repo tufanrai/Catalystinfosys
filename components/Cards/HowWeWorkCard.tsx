@@ -2,7 +2,7 @@ import React from "react";
 
 const HowWeWorkCard = () => {
   return (
-    <div className="w-full bg-linear-140 from-black to-theme py-8">
+    <div className="w-full bg-theme/30 py-8">
       <h1 className="font-bold md:text-[28px] text-lg w-full text-center">
         How we work
       </h1>
