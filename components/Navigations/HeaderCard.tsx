@@ -3,8 +3,8 @@ import React from "react";
 
 const HeaderCard = () => {
   return (
-    <div className="max-w-[1280px] w-full text-white px-16 font-[--main-font]">
-      <ul className="w-full flex items-center jsutify-center gap-3">
+    <div className="max-w-[1280px] w-full text-white md:px-16 font-[--main-font]">
+      <ul className="w-full flex items-center jsutify-center gap-3 ">
         <li className="mr-auto">
           <Link href={"/"}>
             <span className="font-thin">
@@ -14,7 +14,7 @@ const HeaderCard = () => {
         </li>
         <li>
           <Link
-            className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
+            className="w-full borderfont-thin text-xs md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
             href={"/"}
           >
             Home
@@ -22,7 +22,7 @@ const HeaderCard = () => {
         </li>
         <li>
           <Link
-            className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
+            className="w-full borderfont-thin text-xs md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
             href={"/service"}
           >
             Services
@@ -30,7 +30,7 @@ const HeaderCard = () => {
         </li>
         <li>
           <Link
-            className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
+            className="w-full borderfont-thin text-xs md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
             href={"/aboutus"}
           >
             About us
@@ -38,7 +38,7 @@ const HeaderCard = () => {
         </li>
         <li>
           <Link
-            className="w-full borderfont-thin text-sm md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
+            className="w-full borderfont-thin text-xs md:text-md relative after:absolute after:bottom-0 after:left-10 after:w-0 hover:after:ease hover:after:duration-300 after:content-[''] after:bg-white after:h-[1px] hover:after:w-full hover:after:left-0"
             href={"/contact"}
           >
             Contact us
