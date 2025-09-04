@@ -30,11 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
-        <div className="w-full flex items-center justify-center bg-black md:px-16 px-8 md:py-8 py-4">
+        <div className="w-full flex flex-col justify-center bg-black md:px-16 px-8">
           <HeaderCard />
-        </div>
-        {children}
-        <div className="w-full flex justify-center bg-black">
+          {children}
           <FooterPage />
         </div>
       </body>

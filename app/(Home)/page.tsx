@@ -11,7 +11,7 @@ const page = () => {
       <div className="max-w-[1280px] w-full bg-black font-[--main-font] text-white bg-black">
         {/* Hero Component */}
         <div className=" flex px-8 py-4 items-center justify-center w-full h-screen text-white bg-linear-300 from-black via-black/60 to-theme">
-          <div className="max-w-[1172px] max-h-[662px] w-full h-screen border backdrop-blur-lg bg-white/12 py-8 overflow-hidden flex items-center justify-center">
+          <div className="max-w-[1172px] max-h-[662px] w-full h-screen md:border backdrop-blur-lg md:bg-white/12 py-8 overflow-hidden flex items-center justify-center">
             <div className="w-120 z-999 flex flex-col items-center justify-center">
               <h1 className="font-bold md:text-[32px] text-lg text-center">
                 The Digital Leap:

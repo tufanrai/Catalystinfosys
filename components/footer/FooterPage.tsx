@@ -52,7 +52,7 @@ const FooterPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-full text-white flex flex-col md:flex-row md:items-center items-start justify-evenly gap-8 md:p-24 p-8">
+      <div className="w-full bg-black text-white flex flex-col md:flex-row md:items-center items-start justify-evenly gap-8 md:p-24 p-8">
         <ul>
           <li>
             <h4>About Catalyst infosys</h4>
@@ -79,7 +79,7 @@ const FooterPage = () => {
         </ul>
       </div>
       <hr className="w-full h-[1px] bg-white" />
-      <div className="py-8 flex items-center justify-center w-full">
+      <div className="py-8 flex bg-black items-center justify-center w-full">
         <span className="text-white/60 font-thin md:text-sm text-xs">
           &copy; Catalyst infosys: The Digital Leap: from Local to Global
         </span>
