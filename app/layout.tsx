@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
-        <div className="w-full flex flex-col justify-center bg-black md:px-16 px-8">
+        <div className="w-full flex flex-col justify-center bg-black">
           <HeaderCard />
           {children}
           <FooterPage />
